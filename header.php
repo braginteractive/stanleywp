@@ -23,7 +23,7 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header" role="banner">
-	    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 	    	<div class="container">
 			   <div class="navbar-brand mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
 	              'theme_location' => 'primary',
 	              'depth'      => 2,
 	              'container'  => false,
-	              'menu_class'     => 'navbar-nav',
+	              'menu_class'     => 'navbar-nav ml-auto',
 	              'walker'     => new Bootstrap_Walker_Nav_Menu()
 	              );
 	            if (has_nav_menu('primary')) {
