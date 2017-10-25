@@ -14,9 +14,8 @@
 
 get_header(); ?>
 
-	<div class="container">
-		<div class="row">
-			<div id="primary" class="content-area">
+	
+			<div id="primary" class="content-area-full">
 				<main id="main" class="site-main" role="main">
 
 				<?php
@@ -40,10 +39,18 @@ get_header(); ?>
 						 */
 						get_template_part( 'template-parts/content', get_post_format() );
 
-					endwhile;
+					endwhile; ?>
+					
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-8">
+								<?php the_posts_navigation(); ?>
+							</div><!--  .col-md-8 -->
+						</div><!--  .row -->
+					</div><!--  .container -->
+					
 
-					the_posts_navigation();
-
+				<?php  
 				else :
 
 					get_template_part( 'template-parts/content', 'none' );
@@ -52,7 +59,7 @@ get_header(); ?>
 
 				</main><!-- #main -->
 			</div><!-- #primary -->
+		
 
 <?php
-get_sidebar();
 get_footer();
