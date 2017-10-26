@@ -12,11 +12,6 @@
 	display: inline;
 }
 
-.post {
-	margin-bottom: 4em;
-	padding-bottom: 1em;
-}
-
 .post-thumbnail {
 	margin-bottom: 1em;
 }
@@ -77,11 +72,17 @@
 	}
 }
 
-.blog-post {
+.post {
   margin: 0;
-  padding: 6rem 0;
+  padding: 2rem 0;
+}
 
-  &:nth-child(odd) {
-    background-color: $gray-100;
+.blog {
+  .post {
+    padding: 6rem 0;
+
+    &:nth-child(odd) {
+      background-color: $gray-100;
+    }
   }
 }

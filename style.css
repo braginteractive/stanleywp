@@ -6453,10 +6453,6 @@ a.text-dark:focus, a.text-dark:hover {
 .group-blog .byline {
   display: inline; }
 
-.post {
-  margin-bottom: 4em;
-  padding-bottom: 1em; }
-
 .post-thumbnail {
   margin-bottom: 1em; }
 
@@ -6523,10 +6519,13 @@ a.text-dark:focus, a.text-dark:hover {
           flex: 0 0 100%;
   max-width: 100%; }
 
-.blog-post {
+.post {
   margin: 0;
+  padding: 2rem 0; }
+
+.blog .post {
   padding: 6rem 0; }
-  .blog-post:nth-child(odd) {
+  .blog .post:nth-child(odd) {
     background-color: #f8f9fa; }
 
 /*--------------------------------------------------------------
