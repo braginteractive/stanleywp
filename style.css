@@ -6428,6 +6428,13 @@ a.text-dark:focus, a.text-dark:hover {
       max-width: 33.33333333%; } }
 
 /*--------------------------------------------------------------
+## Templates
+--------------------------------------------------------------*/
+.about {
+  background-color: #e9ecef;
+  padding: 3rem 0; }
+
+/*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
 .comments-area {
@@ -6560,6 +6567,9 @@ a.text-dark:focus, a.text-dark:hover {
   margin-bottom: 3em; }
 
 .blog .site-header {
+  margin-bottom: 0; }
+
+.page-template-about .site-header {
   margin-bottom: 0; }
 
 .navbar-brand a {
