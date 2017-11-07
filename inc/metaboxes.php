@@ -13,8 +13,8 @@ function cmb2_stanleywp_metaboxes() {
 	 * Initiate the metabox
 	 */
 	$cmb = new_cmb2_box( array(
-		'id'            => 'test_metabox',
-		'title'         => __( 'Test Metabox', 'stanleywp' ),
+		'id'            => 'about_metabox',
+		'title'         => __( 'Column Content', 'stanleywp' ),
 		'object_types'  => array( 'page', ), // Post type
 		'show_on'       => array( 'key' => 'page-template', 'value' => 'templates/about.php' ),
 		'context'       => 'normal',
