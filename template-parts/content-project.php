@@ -38,7 +38,7 @@
 		</div><!--  .row -->
 
 
-		<div class="row justify-content-center">
+		<div class="row justify-content-center text-center">
 			<div class="col-md-8">
 
 				<?php 
@@ -52,6 +52,8 @@
 						echo '</div>';
 					}
 				 ?>
+
+				  <?php echo get_the_term_list( get_the_ID(), 'project_category', 'Type: ', ', ', ''); ?> 
 
 			</div><!--  .col-md-8 -->
 		</div><!--  .row -->
