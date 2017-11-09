@@ -121,7 +121,7 @@ get_header(); ?>
                                                 <textarea class="form-control <?php if(isset($commentError)) { echo "is-invalid"; }?>" name="comments" id="commentsText" rows="10" cols="20"><?php echo isset($_POST["comments"]) ? $_POST["comments"] : ''; ?></textarea>
                                                  <?php if(isset($commentError)) { ?>
                                                     <div class="invalid-feedback">
-                                                        <?php _e('Please provide comments', 'stanleywp'); ?>
+                                                        <?php _e('Please provide comments.', 'stanleywp'); ?>
                                                       </div>
                                                 <?php } ?>
                                             
