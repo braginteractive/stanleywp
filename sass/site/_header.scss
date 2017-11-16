@@ -18,5 +18,20 @@
 .navbar-brand {
 	a {
 		color: $white;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 2px;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
+}
+
+// Bootstrap hack - check next version
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: .8rem;
+	padding-right: .8rem;
+	text-transform: uppercase;
+	font-size: .9rem;
 }

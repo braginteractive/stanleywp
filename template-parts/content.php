@@ -20,12 +20,12 @@
 
 				<?php if ( has_post_thumbnail() && is_single() ) : ?>
 					<div class="post-thumbnail">
-						<?php the_post_thumbnail('full', array('class' => 'rounded')); ?>
+						<?php the_post_thumbnail(); ?>
 					</div><!--  .post-thumbnail -->
 					<?php else : ?>
 						<div class="post-thumbnail">
 					    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-					        <?php the_post_thumbnail('full', array('class' => 'rounded')); ?>
+					        <?php the_post_thumbnail(); ?>
 					    </a>
 					</div><!--  .post-thumbnail -->
 				<?php endif; ?>

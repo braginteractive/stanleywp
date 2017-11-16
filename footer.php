@@ -28,11 +28,11 @@
 				</div><!--  .col-md-4 -->
 			</div><!--  .row -->
 
-			<div class="site-info">
-				&copy; <?php bloginfo( 'name' );
-						echo ' - ';
-						echo date("Y"); ?>
-			</div><!-- .site-info -->
+			<!--<div class="site-info">
+				&copy; <?php //bloginfo( 'name' );
+						//echo ' - ';
+						//echo date("Y"); ?>
+			</div> -->
 		</div><!--  .container -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

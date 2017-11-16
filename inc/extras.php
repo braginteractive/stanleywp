@@ -53,6 +53,6 @@ add_filter( 'wp_tag_cloud', 'stanleywp_tag_cloud_btn' );
  * Customize the Read More Button
 **/
 function stanleywp_modify_read_more_link() {
-    return '<a class="more-link btn btn-sm btn-secondary" href="' . get_permalink() . '">Read More</a>';
+    return '<a class="more-link" href="' . get_permalink() . '">Read More</a>';
 }
 add_filter( 'the_content_more_link', 'stanleywp_modify_read_more_link' );

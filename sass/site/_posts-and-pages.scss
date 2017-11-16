@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
 .sticky {
 	display: block;
 }
@@ -21,10 +25,6 @@
   font-size: .75rem;
   margin: .75em 0 2em;
 
-  .fa {
-    color: $gray-600;
-    margin-right: .3em;
-  }
   span {
     margin: 0 1.5em .4em 0;
     display: inline-block;
@@ -57,6 +57,7 @@
 .nav-links {
 	display: flex;
 	justify-content: space-between;
+  margin-top: 3rem;
 }
 
 /* Screenreaders */
@@ -75,6 +76,21 @@
 .post {
   margin: 0;
   padding: 2rem 0;
+
+  .entry-title {
+    font-size: 1.5rem;
+    a {
+      color: $body-color;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .more-link:hover {
+    text-decoration: none;
+  }
 }
 
 .blog {

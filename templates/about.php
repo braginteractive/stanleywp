@@ -46,17 +46,18 @@ get_header(); ?>
 		$rightcol = get_post_meta( get_the_ID(), '_stanleywp_right', true );
 	?>
 
-	<div class="container">	
-		<div class="row mt-5">
-			<div class="col-md-6">
-				<?php echo wp_kses_post($leftcol); ?>
-			</div><!--  .col-md-6 -->
-			<div class="col-md-6">
-				<?php echo wp_kses_post($rightcol); ?>
-			</div><!--  .col-md-6 -->
-		</div><!--  .row -->
-
-	</div><!--  .container -->
+	<div class="about-columns">
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-6">
+					<?php echo wp_kses_post($leftcol); ?>
+				</div><!--  .col-md-6 -->
+				<div class="col-md-6">
+					<?php echo wp_kses_post($rightcol); ?>
+				</div><!--  .col-md-6 -->
+			</div><!--  .row -->
+		</div><!--  .container -->
+	</div><!--  .about-columns -->
 
 <?php
 get_footer();
