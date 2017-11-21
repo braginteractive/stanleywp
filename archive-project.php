@@ -17,10 +17,13 @@ get_header(); ?>
 				if ( have_posts() ) : ?>
 					<div class="row justify-content-center text-center">
 						<header class="page-header col-md-6">
-							<?php
-								the_archive_title( '<h1 class="page-title">', '</h1>' );
-								the_archive_description( '<div class="archive-description">', '</div>' );
-							?>
+
+							<?php $project_title = get_theme_mod( 'project_title', 'Projects' ); ?>
+
+							<?php if( $project_title != '') : ?>
+								<h1><?php echo $project_title; ?></h1>
+							<?php endif; ?>
+
 						</header><!-- .page-header -->
 					</div><!--  .row -->
 

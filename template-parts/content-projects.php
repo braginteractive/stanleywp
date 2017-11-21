@@ -9,7 +9,9 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('col-md-4'); ?>>
+<?php $project_items = get_theme_mod( 'project_items', '4' ); ?>
+
+<article id="post-<?php the_ID(); ?>" <?php post_class('col-md-'. $project_items); ?>>
 
 	<?php if ( has_post_thumbnail() ) : ?>
 		<div class="post-thumbnail">
