@@ -53,6 +53,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Author Avatar - Blog Post  */
+.author-avatar {
+  span {
+    text-transform: uppercase;
+    color: $gray-600;
+    font-size: .8rem;
+  }
+}
+
 /* Posts Navigation */
 .nav-links {
 	display: flex;

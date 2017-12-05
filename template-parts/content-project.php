@@ -59,9 +59,9 @@
 		</div><!--  .row -->
 
 
-				<footer class="entry-footer">
-					<?php stanleywp_entry_footer(); ?>
-				</footer><!-- .entry-footer -->
+		<footer class="entry-footer">
+			<?php stanleywp_entry_footer(); ?>
+		</footer><!-- .entry-footer -->
 
 			
 	</div><!--  .container -->
