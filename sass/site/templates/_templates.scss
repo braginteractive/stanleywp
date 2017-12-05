@@ -15,7 +15,18 @@
 
 // About Template
 .about-columns {
-	padding: 5rem 0;
+	padding: 3rem 0;
+
+	h4 {
+		margin-top: 2rem;
+	}
+
+	@include media-breakpoint-up(md) {
+		padding: 5rem 0;
+		h4 {
+			margin-top: 0;
+		}
+	}
 }
 
 //Project Items
