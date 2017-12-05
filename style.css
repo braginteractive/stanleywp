@@ -6968,9 +6968,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-header {
   margin-bottom: 3em; }
 
-.blog .site-header {
-  margin-bottom: 0; }
-
+.blog .site-header,
 .page-template-about .site-header,
 .page-template-home .site-header {
   margin-bottom: 0; }
